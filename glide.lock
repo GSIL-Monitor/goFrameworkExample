@@ -1,0 +1,12 @@
+hash: 12d19a13620b3be65091a38c6b4ad414ffb5cf8106b928b5a88e6cb982bf369c
+updated: 2018-04-04T20:53:08.143799492+08:00
+imports:
+- name: git.xiaojukeji.com/soda-framework/go-log
+  version: eba2f1e2b12a0d16c362d78634ecda757aaa9eff
+  subpackages:
+  - internal/lumberjack
+- name: git.xiaojukeji.com/soda-framework/go-timer
+  version: e372ab124f33e0fc1d6f5bcfaf96b7e6ec796343
+- name: git.xiaojukeji.com/soda-framework/go-trace
+  version: b0818fe36aa498f97cd7b4dae4afbd93b000b23e
+testImports: []
