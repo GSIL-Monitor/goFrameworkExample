@@ -13,7 +13,7 @@ type MyMockedObject struct {
 
 func (m *MyMockedObject) DoSomething(number int) (bool, error) {
 
-	args := m.Called(number)
+	args := m.MethodCalled("DoSomething", number)
 	return args.Bool(0), args.Error(1)
 
 }

@@ -1,12 +1,35 @@
-hash: 12d19a13620b3be65091a38c6b4ad414ffb5cf8106b928b5a88e6cb982bf369c
-updated: 2018-04-04T20:53:08.143799492+08:00
+hash: fafd3d5223b3014825cac7b5d7d647c081acc4d5e57a55d048d07fa50257c256
+updated: 2018-09-12T14:47:42.109008074+08:00
 imports:
+- name: git.xiaojukeji.com/pt-arch/fermion
+  version: fabc524f865627a890b04a465e5e3dc9f12b903f
 - name: git.xiaojukeji.com/soda-framework/go-log
-  version: eba2f1e2b12a0d16c362d78634ecda757aaa9eff
+  version: 1374201cfcaa9ac5c54c3564af8a9caee5ca03b9
+- name: github.com/google/gops
+  version: f341a40f99ec27eb59f219922de4c5f8369251a1
   subpackages:
-  - internal/lumberjack
-- name: git.xiaojukeji.com/soda-framework/go-timer
-  version: e372ab124f33e0fc1d6f5bcfaf96b7e6ec796343
-- name: git.xiaojukeji.com/soda-framework/go-trace
-  version: b0818fe36aa498f97cd7b4dae4afbd93b000b23e
-testImports: []
+  - agent
+  - internal
+  - signal
+- name: github.com/kardianos/osext
+  version: ae77be60afb1dcacde03767a8c37337fad28ac14
+testImports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/rcrowley/go-metrics
+  version: e2704e165165ec55d062f5919b4b29494e9fa790
+- name: github.com/stretchr/objx
+  version: ef50b0de28773081167c97fc27cf29a0bf8b8c71
+- name: github.com/stretchr/testify
+  version: f35b8ab0b5a2cef36673838d662e249dd9c94686
+  subpackages:
+  - assert
+  - mock
+  - require
+  - suite
